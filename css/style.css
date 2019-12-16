@@ -33,6 +33,10 @@ textarea:focus {
 .link img {
   width: 100%;
   margin-bottom: 1.5rem;
+  border: 6px solid white;
+}
+.link img:hover {
+  border: 1px solid white;
 }
 .link a {
   color: black;
@@ -192,3 +196,20 @@ body .am-expanded.am-modal.modal3 .am-expanded.am-back {
   border-radius: 5px;
 }
 /* close modal */
+.portfolio {
+  background: #317382 url(../img/bg-light.jpg) center no-repeat;
+  background-size: cover;
+  padding: 3rem 0 12rem 0;
+}
+.portfolio h1 {
+  color: white;
+}
+.portfolio-img img {
+  width: 100%;
+  margin-top: 3rem;
+}
+.portfolio-img img:hover {
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+  /* Параметры тени */
+}
