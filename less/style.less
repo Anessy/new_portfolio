@@ -16,6 +16,7 @@ html {
 
 body {
 	.reg();
+	color: black;
 }
 a:hover {
 	text-decoration: none;
@@ -58,13 +59,186 @@ button, input, a, textarea {
 		&-img {
 			border: 1px solid black;
 			padding: 4rem 10rem 4rem 10rem;
-			box-shadow: 10px 10px 20px rgba(0,0,0,0.5); /* Параметры тени */
+			box-shadow: 10px 10px 20px rgba(0,0,0,0.5); /* Параметры тени */ 
+			h2 {
+				margin-bottom: 3rem;
+			}
+			p {
+				.italic();
+				font-size: 1.8rem;
+			}
 		}
 	}
 	&-foto {
-		img {
-			width: 100%;
+		transform: translateX(-5%);
+		background-color: rgba(0, 0, 0, 0.2);
+		box-shadow: 10px 10px 20px rgba(0,0,0,0.5); /* Параметры тени */
+
+		&-img {
+			background: url(../img/bg.jpg) center no-repeat;
+			background-size: cover;
+			border: 1px solid black;
+			transform: translateY(10%);
+			
+			img {
+				width: 100%;
+				padding: 12rem 3rem 12rem 3rem;			
+			}
 		}
 		
 	}
 }
+
+.tehnology {
+	h1 {
+		margin: 12rem 0 7rem 0;
+	}
+	img {
+		width: 100%;
+		border: 10px solid white;
+	}
+	img:hover {
+		border: none;
+	}
+}
+
+/* modal window */
+.container .line {
+	display: inline-block;
+}
+
+.main  {
+	
+  margin: 25px auto;
+  max-width: 980px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.main p {
+
+  color: #000;
+  text-align: left;
+  font-size: 18px;
+  line-height: 180%;
+  font-weight: 100;
+}
+
+.main {
+
+	a {
+		background-color: #bff6b4;
+		color: black;
+		p {
+		
+		}
+		h1 {
+		
+		}
+	}
+
+}
+
+.nav-top a {
+  color: #000;
+
+}
+
+.am-modal-content {
+
+  padding: 20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.main p {
+
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 140%;
+  }
+.main p a {
+
+  background: #3E5C9A;
+  display: inline-block;
+  font-weight: bold;
+  color: black;
+  padding: 2px 5px;
+}
+.main .btns {
+
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.main .btns a {
+
+  font-weight: bold;
+  color: black;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  /*background: #E75854;*/
+}
+
+form {
+
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+form .btns a {
+
+  margin-top: 25px;
+  background: black;
+  font-weight: bold;
+  color: #1ABC9C;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+}
+form input {
+
+  border-radius: 3px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 16px;
+}
+
+.demo4 .main p a {
+  background: #E67F22;
+
+}
+
+body .am-expanded.am-modal.modal1 {
+  width: 400px;
+  margin-left: -200px;
+
+}
+
+body .am-expanded.am-modal.modal1 .am-expanded.am-back {
+  width: 400px;
+  border-radius: 5px;
+
+}
+body .am-expanded.am-modal.modal3 {
+  width: 640px;
+  margin-left: -320px;
+
+}
+
+body .am-expanded.am-modal.modal3 .am-expanded.am-back {
+  width: 640px;
+  padding: 0;
+  border-radius: 5px;
+}
+
+/* close modal */
