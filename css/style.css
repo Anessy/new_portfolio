@@ -213,3 +213,19 @@ body .am-expanded.am-modal.modal3 .am-expanded.am-back {
           box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
   /* Параметры тени */
 }
+/* на всех экранах меньше 1200px */
+@media (max-width: 767px) {
+  .about-text-img {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .about-foto {
+    margin-top: 2rem;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  .about-foto-img {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
