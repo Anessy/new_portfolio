@@ -1,0 +1,56 @@
+/* миксины для шрифтов */
+/* basic settings */
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Philosopher', sans-serif;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+.link {
+  text-align: center;
+}
+.link .forBorder {
+  border: 1px solid black;
+  background-color: white;
+  padding: 4rem 0 4rem 0;
+  -webkit-transform: translateY(-25%);
+          transform: translateY(-25%);
+  z-index: 999;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  /* Параметры тени */
+}
+.link img {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.link a {
+  color: black;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.link a:hover {
+  text-decoration: none;
+}
+.about-text {
+  text-align: justify;
+}
+.about-text-img {
+  border: 1px solid black;
+  padding: 4rem 10rem 4rem 10rem;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  /* Параметры тени */
+}
+.about-foto img {
+  width: 100%;
+}
